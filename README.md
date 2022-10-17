@@ -5,13 +5,13 @@ The project pretty much requires us to use all of the concept we have learned in
 
 _printf() is a function that performs formatted output conversion and prints data. It has the following  prototype:
 
-	```int _printf(const char *format, ...)```
+	int _printf(const char *format, ...)
 
 Where `format` contains the string that is printed. As `_printf()` is a variadic function, it can receives `n` number of arguments that's replaced by n tags written inside the string.
 
 The format tags prototype is the following:
 
-	```%[flags][length]specifier```
+	%[flags][length]specifier
 	
 If the program runs successfully, the *return value* is the amount of characters printed.
 	
@@ -53,7 +53,7 @@ If the program runs successfully, the *return value* is the amount of characters
 |**handl_buf.c**|Concatenates buffer characters						|
 |**print_chr.c**|Writes character to stdout ```identifier: %c```			|
 |**print_str.c**|Writes strings to stdout ```identifier: %s```				|
-|**print_int.c**|Writes integer to stdout ``identifier: %i``` or `%d`			|
+|**print_int.c**|Writes integer to stdout ```identifier: %i``` or `%d`			|
 |**print_bnr.c**|Prints decimal in binary ```identifier: %b```				|
 |**print_oct.c**|Prints decimal to octal ```identifier: %o```				|
 |**print_hex.c**|Prints decimal to hexadecimal ```identifier: %x```			|
@@ -66,7 +66,7 @@ If the program runs successfully, the *return value* is the amount of characters
 |**print_long_oct.c**|Prints long decimal number to octal ```identifier: %lo```		|
 |**print_long_hex.c**|Prints long decimal number to hexadecimal ```identifier: %lx```	|
 |**print_long_int.c**|Prints long integer ```identifier: %li```				|
-|**print_long_upx.c**|Prints long decimal in uppercase hexadecimal ```identifier: %lX	|
+|**print_long_upx.c**|Prints long decimal in uppercase hexadecimal ```identifier: %lX```|
 |**print_long_unt.c**|Prints a long unsigned integer ```identifier: %lu```		|
 |**print_short_oct.c**|Prints short decimal number to octal ```identifier: %ho```	|
 |**print_short_hex.c**|Prints short decimal number in hexadecimal ```identifier: %hx```	|
